@@ -1,3 +1,7 @@
+//THIS FILE WAS ONLY FOR TESTING. YOU CAN IGNORE THIS. 
+
+
+
 package TelegramBot;
 
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
