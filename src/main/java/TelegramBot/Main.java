@@ -8,8 +8,10 @@ public class Main {
     public static void main(String[] args) {
         try {
             TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
-            botsApi.registerBot(new Bot());
-            new Bot();
+            Bot bot = new Bot();
+            botsApi.registerBot(bot);
+            bot.onRegister();
+            System.out.println("Bot registered successfully!\nYou will start to get Updates!");
         } catch (TelegramApiException e) {
             throw new RuntimeException(e);
         }
