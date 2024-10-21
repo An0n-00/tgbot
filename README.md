@@ -1,6 +1,7 @@
+# tgbot
+
+# How it works
 Simple telegram bot based on telegrams tutorial: https://core.telegram.org/bots/tutorial
 
-test it out at: https://t.me/SimpleUsefulBot
-(NOTE: This is a personal project. The Downtime of the Bot is quite high.)
-
-feel free to do a pr :]
+# How to run
+Clone the repo and run the main class.
